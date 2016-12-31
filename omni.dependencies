@@ -1,7 +1,7 @@
 [
   {
-    "remote": "omnirom",
-    "repository": "android_hardware_qcom_display-caf-msm8996",
+    "remote": "github",
+    "repository": "scanno/android_hardware_qcom_display-caf-msm8996",
     "target_path": "hardware/qcom/display-caf-msm8996",
     "revision": "android-7.1"
   },
@@ -12,8 +12,8 @@
     "revision": "android-7.1"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_hardware_qcom_media-caf-msm8996",
+    "remote": "github",
+    "repository": "scanno/android_hardware_qcom_media-caf-msm8996",
     "target_path": "hardware/qcom/media-caf-msm8996",
     "revision": "android-7.1"
   },
@@ -48,20 +48,20 @@
     "revision": "android-7.1"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_vendor_nxp-nfc_opensource_frameworks",
+    "remote": "github",
+    "repository": "scanno/android_vendor_nxp-nfc_opensource_frameworks",
     "target_path": "vendor/nxp-nfc/opensource/frameworks",
     "revision": "android-7.1"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_vendor_nxp-nfc_opensource_libnfc-nci",
+    "remote": "github",
+    "repository": "scanno/android_vendor_nxp-nfc_opensource_libnfc-nci",
     "target_path": "vendor/nxp-nfc/opensource/libnfc-nci",
     "revision": "android-7.1"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_vendor_nxp-nfc_opensource_Nfc",
+    "remote": "github",
+    "repository": "scanno/android_vendor_nxp-nfc_opensource_Nfc",
     "target_path": "vendor/nxp-nfc/opensource/Nfc",
     "revision": "android-7.1"
   },
