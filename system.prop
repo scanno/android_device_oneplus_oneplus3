@@ -79,7 +79,9 @@ ro.min_freq_4=307200
 ro.sys.fw.bg_apps_limit=60
 
 # QCOM
-ro.frp.pst=/dev/block/platform/soc/624000.ufshc/by-name/config
+
+#ro.frp.pst=/dev/block/platform/soc/624000.ufshc/by-name/config
+
 drm.service.enabled=true
 
 # RIL
@@ -98,7 +100,7 @@ DEVICE_PROVISIONED=1
 persist.radio.multisim.config=dsds
 persist.volte_enabled_by_hw=1
 persist.radio.data_ltd_sys_ind=1
-ro.telephony.default_network=22,22
+ro.telephony.default_network=22
 telephony.lteOnCdmaDevice=1
 ro.telephony.call_ring.multiple=false
 persist.radio.apm_sim_not_pwdn=1
@@ -133,10 +135,12 @@ wifi.interface=wlan0
 ro.build.selinux=1
 
 # Camera
+persist.camera.HAL3.enabled=1
 persist.camera.imglib.fddsp=1
 persist.camera.llc=1
 persist.camera.llnoise=1
 # ZOMG HAX!! - remove when we have something that works
+camera.hal1.packagelist=com.skype.raider,com.whatsapp,com.tencent.mm,com.google.android.GoogleCamera
 persist.camera.HAL3.enabled=0
 media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true

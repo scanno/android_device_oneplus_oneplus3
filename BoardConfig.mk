@@ -23,7 +23,11 @@
 BOARD_PATH := device/oneplus/oneplus3
 
 TARGET_NO_BOOTLOADER := true
+
 TARGET_OTA_ASSERT_DEVICE := OnePlus3,oneplus3,OnePlus3T,oneplus3t
+
+TARGET_UNIFIED_DEVICE := true
+
 TARGET_BOOTLOADER_BOARD_NAME := msm8996
 
 # Platform
@@ -183,7 +187,8 @@ TARGET_CRYPTFS_HW_PATH := $(BOARD_PATH)/cryptfs_hw
 TARGET_INCREASES_COLDBOOT_TIMEOUT := true
 
 # CNE and DPM
-TARGET_LDPRELOAD := libNimsWrap.so
+#TARGET_LDPRELOAD := libNimsWrap.so
+BOARD_PROVIDES_LIBRIL := true
 BOARD_USES_QCNE := true
 
 # selinux

@@ -77,6 +77,7 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/init.target.rc:root/init.target.rc \
     $(LOCAL_PATH)/configs/init.qcom.rc:root/init.qcom.rc \
     $(LOCAL_PATH)/configs/init.qcom.sh:root/init.qcom.sh \
     $(LOCAL_PATH)/configs/init.qcom.power.rc:root/init.qcom.power.rc \
@@ -204,6 +205,10 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
+
+# QMI
+PRODUCT_PACKAGES += \
+    libjson
 
 # RIL
 PRODUCT_PACKAGES += \
